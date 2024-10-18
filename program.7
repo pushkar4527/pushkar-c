@@ -1,0 +1,16 @@
+#include <stdio.h> 
+Void main()
+{ 
+char a [20];
+printt ("Enter any word ");
+gets(a);
+int len = strlen (a) -1; 
+for (int i=0,j=len;i<=j;i++,j--)
+{
+if(a[i]!=a[j])
+{
+printf("NOT palindrome"); 
+return;
+}
+Printf (" palindrome"); 
+}
